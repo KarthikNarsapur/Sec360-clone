@@ -1,0 +1,5 @@
+2025-11-26 14:56:22,980 - INFO - Unauthorized access attempt from IP: 127.0.0.1
+2025-11-26 15:15:50,398 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-11-26 15:15:50,401 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-11-26 15:43:33,877 - INFO - Unauthorized access attempt from IP: 115.246.26.172
+2025-11-26 15:43:33,900 - INFO - Unauthorized access attempt from IP: 115.246.26.172
