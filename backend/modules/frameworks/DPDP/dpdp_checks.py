@@ -52,7 +52,7 @@ def _update_meta(meta, service, total, non_compliant, severity_key):
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# 🗄️ DATA LAYER — Personal Data Storage Protection (Global: S3)
+#  DATA LAYER — Personal Data Storage Protection (Global: S3)
 # ═══════════════════════════════════════════════════════════════════════════════
 
 
@@ -189,7 +189,7 @@ def dpdp_s3_lifecycle(session, meta):
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# 🗄️ DATA LAYER — Regional (RDS, DynamoDB, EFS)
+#  DATA LAYER — Regional (RDS, DynamoDB, EFS)
 # ═══════════════════════════════════════════════════════════════════════════════
 
 
@@ -300,7 +300,7 @@ def dpdp_efs_encryption(session, meta):
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# 🔐 IAM LAYER — Access Control (Global)
+#  IAM LAYER — Access Control (Global)
 # ═══════════════════════════════════════════════════════════════════════════════
 
 
@@ -427,7 +427,7 @@ def dpdp_password_policy(session, meta):
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# 🌐 NETWORK LAYER — Regional
+#  NETWORK LAYER — Regional
 # ═══════════════════════════════════════════════════════════════════════════════
 
 
@@ -485,7 +485,7 @@ def dpdp_vpc_flow_logs(session, meta):
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# 🧱 INFRASTRUCTURE LAYER — Regional
+#  INFRASTRUCTURE LAYER — Regional
 # ═══════════════════════════════════════════════════════════════════════════════
 
 
@@ -532,7 +532,7 @@ def dpdp_ebs_encryption(session, meta):
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# 📊 LOGGING & MONITORING — Breach Detection (Section 11) — Regional
+#  LOGGING & MONITORING — Breach Detection (Section 11) — Regional
 # ═══════════════════════════════════════════════════════════════════════════════
 
 
@@ -640,7 +640,7 @@ def dpdp_cloudwatch_log_retention(session, meta):
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# 🔑 SECRETS MANAGEMENT
+#  SECRETS MANAGEMENT
 # ═══════════════════════════════════════════════════════════════════════════════
 
 
@@ -689,7 +689,7 @@ def dpdp_lambda_env_secrets(session, meta):
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# 🧑‍💻 APPLICATION LAYER — Regional
+#  APPLICATION LAYER — Regional
 # ═══════════════════════════════════════════════════════════════════════════════
 
 
@@ -725,7 +725,7 @@ def dpdp_lambda_public_access(session, meta):
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
-# 🔔 ALERTING — Breach Notification Readiness (Section 11)
+#  ALERTING — Breach Notification Readiness (Section 11)
 # ═══════════════════════════════════════════════════════════════════════════════
 
 
